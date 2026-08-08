@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220" fill="none">
+  <defs>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff79c6" />
+      <stop offset="100%" stop-color="#bd93f9" />
+    </linearGradient>
+  </defs>
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: url(#text-grad); }
+    .stat-label { font: 500 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
+    .stat-value { font: 600 15px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }
+    .stat-icon { fill: #58a6ff; }
+    .card {
+      fill: url(#card-grad);
+      stroke: #30363d;
+      stroke-width: 1.5;
+      rx: 8px;
+    }
+  </style>
+
+  <rect x="1" y="1" width="478" height="218" class="card" />
+
+  <text x="25" y="35" class="header">GitHub Stats &amp; Contributions</text>
+
+  <!-- Total Contributions -->
+  <g transform="translate(25, 60)">
+    <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16">
+      <path class="stat-icon" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" />
+    </svg>
+    <text x="30" y="13" class="stat-label">Total Contributions</text>
+    <text x="450" y="13" class="stat-value" text-anchor="end">105</text>
+  </g>
+
+  <!-- Commits -->
+  <g transform="translate(25, 90)">
+    <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16">
+      <path class="stat-icon" d="M10.5 7.75a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm5.25.75a.75.75 0 0 0 0-1.5h-4.5a3.99 3.99 0 0 0-7.5 0h-.5a.75.75 0 0 0 0 1.5h.5a3.99 3.99 0 0 0 7.5 0h4.5Z" />
+    </svg>
+    <text x="30" y="13" class="stat-label">Commits</text>
+    <text x="450" y="13" class="stat-value" text-anchor="end">54</text>
+  </g>
+
+  <!-- Pull Requests -->
+  <g transform="translate(25, 120)">
+    <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16">
+      <path class="stat-icon" d="M7.177 3.073L9.573.677A.25.25 0 0 1 10 .854v4.792a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm-2.25.75a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm1.5 8a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm11.25-8a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm-2.25.75a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 11.5 3.25Zm1.5 8a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" />
+    </svg>
+    <text x="30" y="13" class="stat-label">Pull Requests</text>
+    <text x="450" y="13" class="stat-value" text-anchor="end">18</text>
+  </g>
+
+  <!-- Issues -->
+  <g transform="translate(25, 150)">
+    <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16">
+      <path class="stat-icon" d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z" />
+    </svg>
+    <text x="30" y="13" class="stat-label">Issues</text>
+    <text x="450" y="13" class="stat-value" text-anchor="end">9</text>
+  </g>
+
+  <!-- Repositories -->
+  <g transform="translate(25, 180)">
+    <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16">
+      <path class="stat-icon" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 1 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 0 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1v9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 0 1 1-1Zm-4.75 3a.75.75 0 0 0 0 1.5h3.5a.75.75 0 0 0 0-1.5ZM7 7.5A.75.75 0 0 0 7.75 7h3.5a.75.75 0 0 0 0 1.5h-3.5A.75.75 0 0 0 7 7.5Z" />
+    </svg>
+    <text x="30" y="13" class="stat-label">Repository Contributions</text>
+    <text x="450" y="13" class="stat-value" text-anchor="end">18</text>
+  </g>
+</svg>
