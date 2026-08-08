@@ -254,10 +254,11 @@ jobs:
                 const count = day.contributionCount;
 
                 let color = '#161b22';
-                if (count > 0 && count <= 2) color = '#0e4429';
+                if (count === 0) color = '#161b22';
+                else if (count <= 2) color = '#0e4429';
                 else if (count <= 5) color = '#006d32';
                 else if (count <= 8) color = '#26a641';
-                else if (count > 8) color = '#39d353';
+                else color = '#39d353';
 
                 gridCells += `<rect x="${x}" y="${y}" width="10" height="10" rx="2" ry="2" fill="${color}">
                   <title>${count} contributions on ${day.date}</title>
