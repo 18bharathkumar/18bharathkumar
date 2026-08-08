@@ -78,6 +78,12 @@
 ## 📊 GitHub Statistics
 
 <!-- GITHUB_STATS_START -->
+<p align="center">
+  <img src=".github/assets/github-stats.svg" alt="GitHub Stats" width="480" style="max-width: 100%;" />
+</p>
+<p align="center">
+  <img src=".github/assets/github-contribution-graph.svg" alt="GitHub Contribution Graph" width="735" style="max-width: 100%;" />
+</p>
 <!-- GITHUB_STATS_END -->
 
 ---
